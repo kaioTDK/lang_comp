@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmark-20240711-210902</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.12, EndeavourOS
+AMD Ryzen 7 3700X, 1 CPU, 16 logical and 8 physical cores
+.NET SDK 8.0.106
+  [Host]     : .NET 8.0.6 (8.0.624.26715), X64 RyuJIT AVX2
+  DefaultJob : .NET 8.0.6 (8.0.624.26715), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method   </th><th>Mean  </th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>PrimeOP</td><td>47.54 &mu;s</td><td>0.770 &mu;s</td><td>0.643 &mu;s</td>
+</tr><tr><td>PrimeRange</td><td>32,661.21 &mu;s</td><td>152.721 &mu;s</td><td>142.856 &mu;s</td>
+</tr><tr><td>PrimeRangeStepp</td><td>32,612.80 &mu;s</td><td>112.447 &mu;s</td><td>105.183 &mu;s</td>
+</tr></tbody></table>
+</body>
+</html>
