@@ -1,4 +1,4 @@
-#Simple comparison project
+Simple comparison project
 
 I'll be using this repo to put some synthetic benchmarks from the languages I'll be using.
 
