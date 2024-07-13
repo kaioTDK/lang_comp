@@ -1,7 +1,0 @@
-// Validating benchmarks:
-// Benchmark Benchmark.PrimeRange: DefaultJob
-//    * Benchmarked method `PrimeRange` is static. Benchmarks MUST be instance methods, static methods are not supported.
-
-// Benchmark Benchmark.PrimeRangeStepp: DefaultJob
-//    * Benchmarked method `PrimeRangeStepp` is static. Benchmarks MUST be instance methods, static methods are not supported.
-
