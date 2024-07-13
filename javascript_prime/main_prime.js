@@ -1,4 +1,3 @@
-
 function is_prime(num_prime){
     if (isNaN(num_prime)){return "Not a number!"}
     for(let i = 1; i < num_prime; i++) {
@@ -10,12 +9,11 @@ function is_prime(num_prime){
 }
 
 function prime_span(num_span){
-    performance.now;
+
     for (let i = 1; i < num_span; i++) {
         const num_h = is_prime(i);
         if (num_h == true){
             console.log(i + " is prime!");
-
         }
     }
 }
