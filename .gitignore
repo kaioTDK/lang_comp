@@ -1,3 +1,3 @@
 #remove csharp build output
-csharp-prime/obj
-csharp-prime/bin
+/gitcsharp-prime/obj
+/csharp-prime/bin
