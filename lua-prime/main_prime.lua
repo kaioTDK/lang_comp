@@ -9,16 +9,17 @@ end
 
 local function is_prime_range(number)
     for i = 1, number, 1 do
-        if is_prime(i) then
+        --if is_prime(i) then
            -- print(i," is prime!")
-        end
+        --end
+        local prime = is_prime(i)
 
     end
     
 end
 
 local time_start = os.clock()
-is_prime_range(10000)
+is_prime_range(100000)
 local time_end = os.clock()
 local time_total = time_end - time_start
 
