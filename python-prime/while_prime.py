@@ -16,9 +16,6 @@ def prime_range(num_span):
     i = 1
     while i < num_span:
         prime = is_prime(i)
-        #if prime:
-        #    print(i, " is prime!")
-            #continue
         i = i+1
 
 number = 10000

@@ -13,9 +13,6 @@ def prime_range(num_span):
         return "not a number!"
     for i in range(1,num_span - 1, 1):
         prime = is_prime(i)
-        if prime:
-            #print(i, " is prime!")
-           continue
 
 number = 10000
 
