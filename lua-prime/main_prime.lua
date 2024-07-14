@@ -1,5 +1,5 @@
-function is_prime(number)
-    for i = 2, number -1, 1 do
+local function is_prime(number)
+    for i = 2, number - 1, 1 do
         if number % i == 0 then
             return false
         end
@@ -7,15 +7,20 @@ function is_prime(number)
     return true
 end
 
-function is_prime_range(number)
+local function is_prime_range(number)
     for i = 1, number, 1 do
         if is_prime(i) then
-            print(i," is prime!")
+           -- print(i," is prime!")
         end
 
     end
     
 end
 
--- print(is_prime(17),"\n")
+time_start = os.clock()
 is_prime_range(10000)
+time_end = os.clock()
+time_total = time_end - time_start
+
+print("Ran for ", time_total, " seconds")
+print("Ran for ", time_total * 1000, " ms")
