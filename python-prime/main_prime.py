@@ -1,5 +1,7 @@
 import time
 def is_prime(number):
+    if not isinstance(number,int):
+        return "not a number!"
     for i in range(1,number -1,1):
         if number % i == 0 and i != 1:
             return False
@@ -7,6 +9,8 @@ def is_prime(number):
     return True
 
 def prime_range(num_span):
+    if not isinstance(number,int):
+        return "not a number!"
     for i in range(1,num_span - 1, 1):
         prime = is_prime(i)
         if prime:

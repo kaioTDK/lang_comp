@@ -12,9 +12,6 @@ function prime_span(num_span){
 
     for (let i = 1; i < num_span; i++) {
         const num_h = is_prime(i);
-        if (num_h == true){
-        //    console.log(i + " is prime!");
-        }
     }
 }
 
