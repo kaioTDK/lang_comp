@@ -17,10 +17,10 @@ local function is_prime_range(number)
     
 end
 
-time_start = os.clock()
+local time_start = os.clock()
 is_prime_range(10000)
-time_end = os.clock()
-time_total = time_end - time_start
+local time_end = os.clock()
+local time_total = time_end - time_start
 
 print("Ran for ", time_total, " seconds")
 print("Ran for ", time_total * 1000, " ms")
