@@ -1,3 +1,5 @@
 #remove csharp build output
 /csharp-prime/obj
 /csharp-prime/bin
+csharp-prime/obj
+csharp-prime/bin
