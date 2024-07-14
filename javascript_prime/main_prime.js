@@ -13,17 +13,16 @@ function prime_span(num_span){
     for (let i = 1; i < num_span; i++) {
         const num_h = is_prime(i);
         if (num_h == true){
-            console.log(i + " is prime!");
+        //    console.log(i + " is prime!");
         }
     }
 }
 
 //console.log(is_prime(13));
-const num_interval = 10_0000;
+const num_interval = 10_000;
 let time_start = Date.now();
 prime_span(num_interval);
-let time_end = Date.now();
-const time_total = time_end - time_start;
+const time_total = Date.now() - time_start;
 console.log("The run time with ", num_interval, " params:");
 console.log("in ms: " , time_total, "ms");
 console.log("in seconds: ", time_total/1000, "s");
