@@ -1,0 +1,36 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /hdd/code/projects/Prime_comp/csharp-prime/bin/release/net8.0/88f7ecc9-e888-4dc6-9d09-123a3000df3f
+// command took 1.37 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in /hdd/code/projects/Prime_comp/csharp-prime/bin/release/net8.0/88f7ecc9-e888-4dc6-9d09-123a3000df3f
+// command took 6.06 sec and exited with 0
+// ***** Done, took 00:00:07 (7.49 sec)   *****
+// Found 1 benchmarks:
+//   Benchmark.is_prime_range: DefaultJob
+
+// **************************
+// Benchmark: Benchmark.is_prime_range: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 88f7ecc9-e888-4dc6-9d09-123a3000df3f.dll --anonymousPipes 109 110 --benchmarkName prime.Benchmark.is_prime_range --job Default --benchmarkId 0 in /hdd/code/projects/Prime_comp/csharp-prime/bin/release/net8.0/88f7ecc9-e888-4dc6-9d09-123a3000df3f/bin/Release/net8.0
+// Failed to set up high priority (Permission denied). In order to run benchmarks with high priority, make sure you have the right permissions.
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.6 (8.0.624.26715), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 267609.00 ns, 267.6090 us/op
+WorkloadJitting  1: 1 op, 40927230308.00 ns, 40.9272 s/op
+
+WorkloadWarmup   1: 1 op, 41289173912.00 ns, 41.2892 s/op
+WorkloadWarmup   2: 1 op, 40817337972.00 ns, 40.8173 s/op
+WorkloadWarmup   3: 1 op, 40598547164.00 ns, 40.5985 s/op
+WorkloadWarmup   4: 1 op, 40637776431.00 ns, 40.6378 s/op
+WorkloadWarmup   5: 1 op, 40614796911.00 ns, 40.6148 s/op
+WorkloadWarmup   6: 1 op, 40589375578.00 ns, 40.5894 s/op
