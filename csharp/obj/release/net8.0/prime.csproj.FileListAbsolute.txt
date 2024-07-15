@@ -93,3 +93,11 @@
 /hdd/code/projects/Prime_comp/csharp-prime/bin/release/net8.0/runtimes/win/lib/netcoreapp2.0/System.Management.dll
 /hdd/code/projects/Prime_comp/csharp-prime/obj/release/net8.0/prime.csproj.AssemblyReference.cache
 /hdd/code/projects/Prime_comp/csharp-prime/obj/release/net8.0/prime.csproj.CopyComplete
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.GeneratedMSBuildEditorConfig.editorconfig
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.AssemblyInfoInputs.cache
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.AssemblyInfo.cs
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.csproj.CoreCompileInputs.cache
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.sourcelink.json
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.dll
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/refint/prime.dll
+/home/kyoteru/hd/code/projects/lang-comp/csharp/obj/release/net8.0/prime.pdb
