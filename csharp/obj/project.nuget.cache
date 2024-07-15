@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mSJ7leXfBPsMdZR5q/b0ST6qu1BJPiqhnPhi8b9N2ew0HzXIC6Q4vfXW6TaNW//5Fr0Q1Zc9Kv9sWGeJrVkJlQ==",
+  "dgSpecHash": "7X3PyMxRGZWdWo9UGBSErJyx1+SvuBlb8ZCDIxoIpwwz9rK9G791k6uaiPRDjwZvf+3K84VJeXp94xNMIHmsmQ==",
   "success": true,
-  "projectFilePath": "/hdd/code/projects/Prime_comp/csharp-prime/prime.csproj",
+  "projectFilePath": "/hdd/code/projects/lang-comp/csharp/prime.csproj",
   "expectedPackageFiles": [
     "/home/kyoteru/.nuget/packages/microsoft.net.illink.tasks/8.0.6/microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
     "/home/kyoteru/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"

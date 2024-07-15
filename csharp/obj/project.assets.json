@@ -74,11 +74,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/hdd/code/projects/Prime_comp/csharp-prime/prime.csproj",
+      "projectUniqueName": "/hdd/code/projects/lang-comp/csharp/prime.csproj",
       "projectName": "prime",
-      "projectPath": "/hdd/code/projects/Prime_comp/csharp-prime/prime.csproj",
+      "projectPath": "/hdd/code/projects/lang-comp/csharp/prime.csproj",
       "packagesPath": "/home/kyoteru/.nuget/packages/",
-      "outputPath": "/hdd/code/projects/Prime_comp/csharp-prime/obj/",
+      "outputPath": "/hdd/code/projects/lang-comp/csharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kyoteru/.nuget/NuGet/NuGet.Config"
