@@ -7,7 +7,7 @@ class Program
 
         bool is_prime(uint number) {
             for (int i = 2 ; i < number;i++){
-                if (number % i == 0 & i != 1 | number % 2 == 0 | number % 3 == 0) return false;
+                if (number % i == 0 | number % 2 == 0) return false;
             }
             return true;
         }
@@ -20,10 +20,10 @@ class Program
         void is_prime_range2(uint number) {
             for (uint i = 1; i <= number;i++) {
                 
-                 for (int i = 2 ; i < number;i++){
-                if (number % i == 0 & i != 1 | number % 2 == 0 | number % 3 == 0) return;
+                for (uint i2 = 2 ; i2 < i; i2++){
+                    if (number % i == 0| number % 2 == 0) return;
                 }
-                Writeline($"{i} is prime!");
+                WriteLine($"{i} is prime!");
             }
         }
         var time = new Stopwatch();
