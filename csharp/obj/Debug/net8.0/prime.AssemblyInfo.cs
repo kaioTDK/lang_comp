@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Reflection.AssemblyMetadata("IsTrimmable", "True")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("prime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f86dc570ada2b9013a37d7f0ac741aab4324a563")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7db39fecf15f643eead5960840dbf1e5aeb7cfe5")]
 [assembly: System.Reflection.AssemblyProductAttribute("prime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

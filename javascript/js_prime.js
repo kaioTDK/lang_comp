@@ -16,7 +16,7 @@ function prime_span(num_span){
 }
 
 //console.log(is_prime(13));
-const num_interval = 500_000;
+const num_interval = 10_000;
 let time_start = performance.now();
 prime_span(num_interval);
 const time_total = performance.now() - time_start;

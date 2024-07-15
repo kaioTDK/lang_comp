@@ -18,21 +18,23 @@ class Program
             }
         }
         void is_prime_range2(uint number) {
+            bool is_prime;
             for (uint i = 1; i <= number;i++) {
-                
+                is_prime = true;
                 for (uint i2 = 2 ; i2 < i; i2++){
-                    if (number % i == 0| number % 2 == 0) return;
+                    if (i % i2 == 0| i % 2 == 0) is_prime = false;
                 }
-                WriteLine($"{i} is prime!");
+                if (is_prime) WriteLine($"{i} is prime!");
             }
         }
         var time = new Stopwatch();
         time.Start();
-        is_prime_range(100_000);
+        is_prime_range(10_000);
         time.Stop();
         WriteLine(time.Elapsed);
-         time.Start();
-        is_prime_range2(100_000);
+        time.Reset();
+        time.Start();
+        is_prime_range2(10_000);
         time.Stop();
         WriteLine(time.Elapsed);
         
