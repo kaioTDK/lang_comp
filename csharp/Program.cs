@@ -8,7 +8,7 @@ class Program
         var fizzbuzz = new Fizzbuzz();
 
         fizzbuzz.FizzBuzz(10000);
-        is_prime()
+        Prime.test(10_000);
         
     }
 }
