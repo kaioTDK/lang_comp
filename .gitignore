@@ -3,3 +3,5 @@ csharp/obj
 csharp/bin
 csharp/debug
 .fake
+.sln
+.vscode

@@ -7,7 +7,7 @@ class Program
 
         var fizzbuzz = new Fizzbuzz();
 
-        fizzbuzz.FizzBuzz(10000);
+        fizzbuzz.FizzBuzz(100);
         Prime.test(10_000);
         
     }
