@@ -1,7 +1,8 @@
 namespace csharp;
 using static Console;
+using System.Diagnostics;
 
-public class Fizzbuzz() {
+public class Fizzbuzz {
     public void FizzBuzz(uint param){
     for (uint i = 1; i < param; i++ ){
         if (i % 5 == 0 & i % 3 == 0) WriteLine("FizzBuzzz!");
