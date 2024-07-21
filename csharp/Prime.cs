@@ -11,8 +11,10 @@ public static class Prime{
         }
 
         internal static void is_prime_range(uint number) {
+            var primeNums = new uint[number];
             for (uint i = 1; i <= number;i++) {
-                bool prime = is_prime(i);
+                bool isprime = is_prime(i);
+                if (isprime) primeNums[i -1] = i;
             }
         }
 
