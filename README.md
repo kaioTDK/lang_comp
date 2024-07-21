@@ -1,4 +1,5 @@
 #Hey#
+
 This is a simple comparison between languages. Mostly synthetic bernchmarks, these are not one-to-one real life comparisons on the fastest, but do shows pretty well the slowest ones.
 
 For now it's mainly prime, fibonacci and fizzbuzz, wich are really simples e all three of them shows a plato on the fastest langs, these simply aren't enough to truly show their differences.
