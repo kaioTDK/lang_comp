@@ -9,6 +9,8 @@ class Program
 
         Fizzbuzz.testFizzB(10000);
         Prime.test(10_000);
+        Fibonacci.print_fibo(35);
+        Fibonacci.test_fibo(10000);
         
     }
 }
