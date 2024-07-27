@@ -19,7 +19,7 @@ local function is_prime_range(number)
 end
 
 local time_start = os.clock()
-is_prime_range(100000)
+is_prime_range(10000)
 local time_end = os.clock()
 local time_total = time_end - time_start
 

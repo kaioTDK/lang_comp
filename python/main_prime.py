@@ -14,7 +14,7 @@ def prime_range(num_span):
     for i in range(1,num_span - 1, 1):
         prime = is_prime(i)
 
-number = 100000
+number = 10000
 
 time_start = time.time()
 prime_range(number)

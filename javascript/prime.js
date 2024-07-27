@@ -17,7 +17,7 @@ function prime_span(num_span){
 
 function test_prime(num){
 
-    const num_interval = 10_000;
+    const num_interval = num;
     let time_start = performance.now();
     prime_span(num_interval);
     const time_total = performance.now() - time_start;
@@ -26,3 +26,5 @@ function test_prime(num){
     console.log("in seconds: ", time_total/1000, "s");
 }
 
+
+test_prime(10000);
