@@ -1,4 +1,5 @@
 import time
+
 def is_prime(number):
     if not isinstance(number,int):
         return "not a number!"
