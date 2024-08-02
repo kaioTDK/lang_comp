@@ -7,10 +7,11 @@ class Program
 
         
 
-        Fizzbuzz.testFizzB(10000);
-        Prime.test(10_000);
-        Fibonacci.print_fibo(35);
-        Fibonacci.test_fibo(10000);
-        
+        Fizzbuzz.testFizzB(10);
+        Prime.test(10);
+        QuickSort.Test_QS(1000);
+        QuickSort.Test_QS(10000);
+        QuickSort.Test_QS(100000);
+        QuickSort.Test_QS(1000000);
     }
 }
