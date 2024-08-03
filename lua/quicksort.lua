@@ -28,27 +28,19 @@ function quick_sort(array, start, end_arr)
 
 end
 
-arr = {}
-arr[1] = 6
-arr[2] = 10
-arr[3] = 14
-arr[4] = 5
-arr[5] = 11
-arr[6] = 13
-arr[7] = 1
-arr[8] = 12
-arr[9] = 2
-arr[10] = 4
-arr[11] = 7
-arr[12] = 8
-arr[13] = 9
-arr[14] = 3
+function testQuickSort(lenght) 
 
-for index, value in ipairs(arr) do
-    print(index,value)    
+    local array= {}
+    for i = 1, lenght, 1 do
+        array[i] = math.random(1,lenght)
+    end
+    local start = os.clock()
+    quick_sort(array,1,lenght)
+    local endC = os.clock()
+    local time_total = endC - start
+    print(time_total*1000)
 end
- 
-quick_sort(arr,1,14)
-for index, value in ipairs(arr) do
-    print(index,value)    
-end
+
+testQuickSort(10000)
+testQuickSort(100000)
+testQuickSort(1000000)
