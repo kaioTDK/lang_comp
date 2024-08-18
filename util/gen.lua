@@ -1,5 +1,5 @@
 local function gen(lenght)
-    local file = io.open("arrays.txt", "a+")
+    local file = io.open("arrays1000.txt", "a+")
     if file ~= nil then
         file:write("Array of ", lenght, " = [")
         for i = 0, lenght - 1, 1  do
@@ -17,7 +17,7 @@ local function gen(lenght)
     end
 end
 
-params = {10000,100000,1000000,10000000,100000000}
+params = {10000,100000,1000000}
 
 for index, value in ipairs(params) do
     gen(value)

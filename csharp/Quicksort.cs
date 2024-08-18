@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 class QuickSort{
 
-    public static void Test_QS(uint length){
+    public static void Test_QS(int length){
         var time = new Stopwatch();
         int[] array = new int[length];
         Random rand = new Random();
@@ -17,6 +17,16 @@ class QuickSort{
         quick_sort(array, 0, array.Length -1);
         time.Stop();
         WriteLine("size: "+ length);
+        WriteLine("ms: "+ time.ElapsedMilliseconds);
+        WriteLine("seconds: "+ time.ElapsedMilliseconds / 1000);
+    }
+    public static void Test_QS(int[] array){
+        var time = new Stopwatch();
+        
+        time.Start();
+        quick_sort(array, 0, array.Length -1);
+        time.Stop();
+        WriteLine("size: "+ array.Length);
         WriteLine("ms: "+ time.ElapsedMilliseconds);
         WriteLine("seconds: "+ time.ElapsedMilliseconds / 1000);
     }
