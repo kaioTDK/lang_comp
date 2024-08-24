@@ -1,11 +1,12 @@
-package java_comp;
 import java.time.Duration;
 import java.time.Instant;
 
 public class Prime {
 	private static final boolean isPrime(int num) {
 		for (int i = 2; i < num; i++) {
-			if (num % i == 0) return false;
+			if (num % i == 0) {
+				return false;
+			}
 		}
 		return true;
 	}
@@ -18,7 +19,7 @@ public class Prime {
 		}
 		return array;
 	}
-	
+
 	public static void testPrime(int num) {
 	 Instant start = Instant.now();
 	 isPrime_Span(num);
